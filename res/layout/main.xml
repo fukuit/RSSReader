@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<EditText android:text="" android:id="@+id/url_et"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:typeface="monospace"
+		android:scrollHorizontally="true"
+		android:singleLine="true"/>
+	<Button android:text="@string/exec_btn" android:id="@+id/exec_btn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@android:id/empty" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/no_list" />
+</LinearLayout>
